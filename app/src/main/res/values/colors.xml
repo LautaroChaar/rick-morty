@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#1BB3C9</color>
+    <color name="colorPrimaryDark">#3C8DA7</color>
+    <color name="colorAccent">#907C5C</color>
+
+    <!-- Background colors -->
+    <color name="background">#212B2F</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Status colors -->
+    <color name="status_alive">#4CAF50</color>
+    <color name="status_dead">#F44336</color>
+    <color name="status_unknown">#9E9E9E</color>
+
+    <!-- Standard colors -->
+    <color name="black">#1D1D1D</color>
+    <color name="white">#F9F9F9</color>
+</resources>

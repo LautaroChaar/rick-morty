@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Rick and Morty Explorer</string>
+    <string name="title_activity_main">Rick and Morty Characters</string>
+    <string name="title_activity_character_detail">Character Details</string>
+
+    <!-- Main Screen -->
+    <string name="search_hint">Search characters…</string>
+    <string name="filter">Filter</string>
+    <string name="retry">Retry</string>
+    <string name="no_characters_found">No characters found</string>
+    <string name="something_went_wrong">Something went wrong</string>
+
+    <!-- Detail Screen -->
+    <string name="character_information">Character Information</string>
+    <string name="location_information">Location Information</string>
+    <string name="episode_appearances">Episode Appearances</string>
+    <string name="gender_label">Gender:</string>
+    <string name="species_label">Species:</string>
+    <string name="type_label">Type:</string>
+    <string name="origin_label">Origin:</string>
+    <string name="last_location_label">Last known location:</string>
+    <string name="unknown">Unknown</string>
+
+    <!-- Status -->
+    <string name="status_alive">Alive</string>
+    <string name="status_dead">Dead</string>
+    <string name="status_unknown">Unknown</string>
+
+    <!-- Filter Dialog -->
+    <string name="filter_by_status">Filter by Status</string>
+    <string name="all">All</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Error Messages -->
+    <string name="network_error">Network error. Please check your connection.</string>
+    <string name="unknown_error">An unknown error occurred</string>
+    <string name="characterImg">characterImg</string>
+    <string name="status">%1$s - %2$s</string>
+    <string name="episodesCount">Appears in %1$d %2$s</string>
+    <string name="species">- %1$s</string>
+    <string name="errorImg">error-image</string>
+    <string name="lastLocation">Last location:</string>
+    <string name="characterInformation">Character Information</string>
+    <string name="gender">Gender:</string>
+    <string name="Species_">Species:</string>
+    <string name="type">Type:</string>
+    <string name="locationInformation">Location Information</string>
+    <string name="origin">Origin:</string>
+    <string name="lastKnownLocation">Last known location:</string>
+    <string name="episodeAppearances">Episode Appearances</string>
+</resources>
