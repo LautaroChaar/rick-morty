@@ -20,4 +20,9 @@
     <!-- Standard colors -->
     <color name="black">#1D1D1D</color>
     <color name="white">#F9F9F9</color>
+
+    <!-- Favorites colors -->
+    <color name="favorite_red">#E25C65</color>
+
+
 </resources>

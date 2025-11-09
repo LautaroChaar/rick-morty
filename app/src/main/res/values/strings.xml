@@ -20,6 +20,7 @@
     <string name="origin_label">Origin:</string>
     <string name="last_location_label">Last known location:</string>
     <string name="unknown">Unknown</string>
+    <string name="favorite_button">Toggle favorite</string>
 
     <!-- Status -->
     <string name="status_alive">Alive</string>
@@ -31,6 +32,10 @@
     <string name="all">All</string>
     <string name="apply">Apply</string>
     <string name="cancel">Cancel</string>
+
+    <!-- Favorites -->
+    <string name="favorites">Favorites</string>
+    <string name="empty_favorites">Empty favorites list</string>
 
     <!-- Error Messages -->
     <string name="network_error">Network error. Please check your connection.</string>
@@ -49,4 +54,5 @@
     <string name="origin">Origin:</string>
     <string name="lastKnownLocation">Last known location:</string>
     <string name="episodeAppearances">Episode Appearances</string>
+
 </resources>

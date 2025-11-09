@@ -14,6 +14,7 @@ import com.example.rickmorty.R
 import com.example.rickmorty.data.model.Character
 import com.example.rickmorty.databinding.ActivityMainBinding
 import com.example.rickmorty.ui.detail.CharacterDetailActivity
+import com.example.rickmorty.ui.favorites.FavoritesActivity
 import com.example.rickmorty.utils.Resource
 import kotlinx.coroutines.*
 
@@ -27,10 +28,16 @@ class MainActivity : AppCompatActivity() {
     // Coroutine job for search debounce
     private var searchJob: Job? = null
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.btnFavorites.setOnClickListener {
+            val intent = Intent(this, FavoritesActivity::class.java)
+            startActivity(intent)
+        }
 
         // Initialize ViewModel
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]

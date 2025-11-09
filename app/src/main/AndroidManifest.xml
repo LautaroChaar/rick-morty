@@ -33,6 +33,10 @@
                 android:value=".ui.main.MainActivity" />
         </activity>
 
+        <activity
+            android:name=".ui.favorites.FavoritesActivity"
+            android:label="@string/favorites" />
+
     </application>
 
 </manifest>

@@ -77,3 +77,18 @@ data class Info(
     @SerializedName("prev")
     val prev: String?
 )
+
+fun FavoriteCharacter.toCharacter() = com.example.rickmorty.data.model.Character(
+    id = id,
+    name = name,
+    status = status,
+    species = species,
+    type = "",
+    gender = gender,
+    origin = com.example.rickmorty.data.model.Location(name = "Unknown", url = ""),
+    location = com.example.rickmorty.data.model.Location(name = "Unknown", url = ""),
+    image = image,
+    episode = emptyList(),
+    url = "",
+    created = ""
+)

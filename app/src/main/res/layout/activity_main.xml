@@ -28,8 +28,10 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="8dp"
+            android:gravity="center_vertical"
             android:background="@color/colorPrimaryDark">
 
+            <!-- Barra de búsqueda -->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilSearch"
                 android:layout_width="0dp"
@@ -62,6 +64,17 @@
                 android:padding="8dp"
                 android:src="@drawable/ic_filter"
                 android:contentDescription="@string/filter"
+                app:tint="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btnFavorites"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="8dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_favorite_border"
+                android:contentDescription="@string/favorites"
                 app:tint="@android:color/white" />
 
         </LinearLayout>
